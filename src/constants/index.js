@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   python,
+  taskon,
 } from "../assets";
 
 export const navLinks = [
@@ -197,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TaskOn 任務管理平台",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "TaskOn 是一個現代化的任務管理平台，提供直覺的使用者介面和豐富的功能，幫助團隊更有效地管理專案和任務。結合了視覺效果和即時通知功能，為使用者帶來獨特的使用體驗。",
     tags: [
       {
         name: "react",
@@ -214,8 +215,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: taskon,
+    source_code_link: "https://github.com/Dort1468/task_manager",
   },
   {
     name: "Job IT",
