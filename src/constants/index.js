@@ -25,6 +25,7 @@ import {
   threejs,
   python,
   taskon,
+  finbridge,
 } from "../assets";
 
 export const navLinks = [
@@ -198,7 +199,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TaskOn 任務管理平台",
+    name: "TaskOn 任務管理",
     description:
       "TaskOn 是一個現代化的任務管理平台，提供直覺的使用者介面和豐富的功能，幫助團隊更有效地管理專案和任務。結合了視覺效果和即時通知功能，為使用者帶來獨特的使用體驗。",
     tags: [
@@ -219,25 +220,25 @@ const projects = [
     source_code_link: "https://github.com/Dort1468/task_manager",
   },
   {
-    name: "Job IT",
+    name: "FinBridge 金融管理系統",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "FinBridge是一個現代的金融平台，透過 Plaid 和 Dwolla 完成信用卡綁定、付款轉帳、支出查詢等。提供最快速便捷的服務。",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Next.js",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "Plaid",
+        color: "skyblue-text-gradient",
       },
       {
-        name: "scss",
+        name: "appwrite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: finbridge,
+    source_code_link: "https://github.com/Dort1468/FinBridge_Banking",
   },
   {
     name: "Trip Guide",

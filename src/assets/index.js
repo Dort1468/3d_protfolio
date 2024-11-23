@@ -30,6 +30,7 @@ import taskon from "./taskon.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import finbridge from "./finbridge.png";
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   jobit,
   tripguide,
   taskon,
+  finbridge,
 };
