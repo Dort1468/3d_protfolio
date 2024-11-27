@@ -31,6 +31,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import finbridge from "./finbridge.png";
+import docnow from "./docnow.png";
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   tripguide,
   taskon,
   finbridge,
+  docnow,
 };

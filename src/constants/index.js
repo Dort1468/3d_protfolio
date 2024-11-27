@@ -26,6 +26,7 @@ import {
   python,
   taskon,
   finbridge,
+  docnow,
 } from "../assets";
 
 export const navLinks = [
@@ -241,25 +242,25 @@ const projects = [
     source_code_link: "https://github.com/Dort1468/FinBridge_Banking",
   },
   {
-    name: "Trip Guide",
+    name: "Docnow 即時文件編輯器",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Docnow 是一個基於 Next.js 和 Liveblocks 構建的即時協作文件編輯器，讓多個用戶可以同時編輯同一份文件，實現無縫協作。",
     tags: [
       {
         name: "nextjs",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
-        name: "supabase",
+        name: "liveblocks",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "clerk",
+        color: "skyblue-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: docnow,
+    source_code_link: "https://github.com/Dort1468/docnow",
   },
 ];
 
