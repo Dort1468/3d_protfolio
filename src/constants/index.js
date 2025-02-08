@@ -27,6 +27,7 @@ import {
   taskon,
   finbridge,
   docnow,
+  sprout,
 } from "../assets";
 
 export const navLinks = [
@@ -163,12 +164,24 @@ const experiences = [
     company_name: "React, TailwindCSS, Redux",
     icon: nodejs,
     iconBg: "#E6DEDD",
-    date: "Present",
+    date: "Oct 2024 - Dec 2024",
     points: [
       "開發和維護互動式使用者介面，提升使用者體驗。",
       "將UI/UX設計轉換為前端程式碼，並處理跨瀏覽器兼容性和響應式設計。",
       "完成Udemy 2024全端網頁開發近80小時課程",
       "參與技術討論和團隊學習，持續進步並成為更專業的前端工程師。",
+    ],
+  },
+  {
+    title: "QA Engineer Intern",
+    company_name: "25Sprout",
+    icon: sprout,
+    iconBg: "#E6DEDD",
+    date: "Dec 2024 - Present",
+    points: [
+      "E2E 自動化測試維護及開發",
+      "參與 Scrum Team 與前後端共同開發大型SaaS功能專案",
+      "撰寫測向和結合AI進行錯誤處理和標準化文件",
     ],
   },
 ];
